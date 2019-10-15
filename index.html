@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Security-Policy" content="img-src 'self' 'unsafe-inline' 'unsafe-eval' data: http: https: yang-inject: filesystem: file:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -11,5 +12,6 @@
             <h1>Apache Cordova</h1>
         </div>
         <iframe id="frame-id" src="https://qbix.github.io"></iframe>
+        <iframe id="frame-id2" src="yang-inject://qbix.github.io"></iframe>
     </body>
 </html>
